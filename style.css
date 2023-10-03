@@ -1,43 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("images/bkgrundbild.jpg"); /* Add the path to your background image */
+    background-size: cover; /* Stretch the image to cover the entire viewport */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
 header {
-    position:fixed;
+    position: fixed;
     top: 0;
     left: 0;
     background-color: rgba(11, 11, 11, 0.996);
-    color:rgb(248, 248, 248);
+    color: rgb(248, 248, 248);
     width: 100%;
     padding: 10px;
     border-bottom: 1px solid rgb(246, 210, 6);
 }
-main {
-    margin:10px;
-}
-.box {
-    display:flex;
-}
-/* Define a class for your boxes */
-.box {
-    width: 100px;
-    height: 100px;
-    background-color: rgb(38, 38, 45);
-    margin: 10px; /* Add spacing between boxes */
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cool Black Box</title>
-    <style>
-        /* Style for the black box */
-        .black-box {
-            width: 200px;
-            height: 150px;
-            background-color: black;
-            color: white;
-            text-align: center;
-            line-height: 150px; /* Vertically center the text */
-            font-size: 24px;
-            border-radius: 10px; /* Add rounded corners */
-        }
-    </style>
-    <div class="black-box">
-        Cool Black Box
-    </div
+h1 {
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 0;
+}
