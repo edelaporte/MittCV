@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url("images/bkgrundbild.jpg"); /* Add the path to your background image */
-    background-size: cover; /* Stretch the image to cover the entire viewport */
+    background-image: url("images/bkgrundbild.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0;
